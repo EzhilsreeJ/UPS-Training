@@ -8,7 +8,7 @@ Documentation log for daily technical sessions, programming tasks, assignments, 
 
 | Module / Day | Topics Covered | Status |
 | :--- | :--- | :--- |
-| Day 01 | Orientation and Environment Setup | Completed |
+| Day 01 | Introduction and Self Intro | Completed |
 | Day 02 | JVM Architecture, Primitive Types, and Operators | Completed |
 | Day 03 | Control Flow Statements and Loops | In Progress |
 
@@ -24,7 +24,6 @@ Documentation log for daily technical sessions, programming tasks, assignments, 
 * HTML5
 * CSS3
 * JavaScript
-* React
 
 ### Database Management
 * SQL
