@@ -10,6 +10,6 @@ Documentation log for daily technical sessions, programming tasks, assignments, 
 | :--- | :--- | :--- |
 | Day 01 | Introduction and Self Intro | Completed |
 | Day 02 | JVM Architecture, Primitive Types, and Operators | Completed |
-| Day 03 | Control Flow Statements and Loops | In Progress |
+
 
 ---
