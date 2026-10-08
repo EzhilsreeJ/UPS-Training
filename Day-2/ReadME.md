@@ -83,7 +83,7 @@ class BioData {
 ```
 **Output:**
 
-![alt text](image.png)
+![alt text](Output/image.png)
 
 ### Task 2 – Positive or Negative
 ```java
@@ -98,7 +98,7 @@ class NumberCheck {
 
 **Output:**
 
-![alt text](image-2.png)
+![alt text](Output/image-2.png)
 
 ### Task 3 – Odd or Even
 ```java
@@ -112,4 +112,4 @@ class OddEven {
 ```
 **Output:**
 
-![alt text](image-1.png)
+![alt text](Output/image-1.png)
