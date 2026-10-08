@@ -1,21 +1,36 @@
-# UPS Java Full Stack Training
+<div align="center">
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=0,2,20&height=180&section=header&text=UPS%20Java%20Full%20Stack%20Training&fontSize=38&fontColor=ffffff&animation=fadeIn" width="100%"/>
+  
+  <p style="font-family: 'Times New Roman', Times, serif; font-size: 16px;">
+    <b>Hey there! 👋 This repository is my personal daily log tracking hands-on exercises, concept notes, and practical projects throughout the UPS Java Full Stack training program.</b>
+  </p>
+  
+  <br />
 
-Documentation log for daily technical sessions, programming tasks, assignments, and practical implementations completed during the UPS Java Full Stack development training program.
+  <span style="font-family: 'Times New Roman', Times, serif; font-weight: bold; font-size: 17px;">Curriculum Milestones</span><br />
+  <img src="https://geps.dev/progress/30?dangerColor=800000&warningColor=ff8000&successColor=00aa00" />
+</div>
 
 ---
 
-## Training Schedule and Progress
+## 🛠️ <span style="font-family: 'Times New Roman', Times, serif; font-weight: bold;">Tools & Technologies Explored</span>
 
-| Module / Day | Topics Covered | Status | Notes & Code |
-| :--- | :--- | :---: | :---: |
-| Day 01 | Introduction and Self Intro | ![](https://img.shields.io/badge/Completed-success?style=flat-square) | ![](https://img.shields.io/badge/N%2FA-lightgrey?style=flat-square) |
-| Day 02 | JVM Architecture, Primitive Types, and Operators | ![](https://img.shields.io/badge/Completed-success?style=flat-square) | [![View](https://img.shields.io/badge/View_Notes-0969DA?style=flat-square&logo=github)](https://github.com/EzhilsreeJ/UPS-Training/tree/main/Day-2) |
-| Day 03 | Conditional Statements, Switch & Loops | ![](https://img.shields.io/badge/Completed-success?style=flat-square) | [![View](https://img.shields.io/badge/View_Notes-0969DA?style=flat-square&logo=github)](https://github.com/EzhilsreeJ/UPS-Training/tree/main/Day-3) |
+<p align="left">
+  <img src="https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white" alt="Java" />
+  <img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white" alt="Git" />
+  <img src="https://img.shields.io/badge/VS_Code-007ACC?style=for-the-badge&logo=visual-studio-code&logoColor=white" alt="VS Code" />
+</p>
 
 ---
 
-## Technical Stack
+## 📅 <span style="font-family: 'Times New Roman', Times, serif; font-weight: bold;">Daily Learning Journey</span>
 
-| Domain | Technology | Status |
-| :--- | :--- | :---: |
-| Programming Language | Java (Core Java) | [![In Progress](https://img.shields.io/badge/Active-ED8B00?style=flat-square&logo=openjdk&logoColor=white)](https://www.java.com/) |
+<div style="font-family: 'Times New Roman', Times, serif; font-weight: bold;">
+
+| Day | What I Learned | Status | Code & Solutions |
+| :---: | :--- | :---: | :---: |
+| **Day 01** | **Introduction and Self Intro** | ![](https://img.shields.io/badge/Done-success?style=flat-square) | ![](https://img.shields.io/badge/N%2FA-lightgrey?style=flat-square) |
+| **Day 02** | **JVM Architecture, Primitive Types, and Operators** | ![](https://img.shields.io/badge/Done-success?style=flat-square) | [![View Code](https://img.shields.io/badge/View_Code-0969DA?style=flat-square&logo=github)](https://github.com/EzhilsreeJ/UPS-Training/tree/main/Day-2) |
+| **Day 03** | **Conditional Statements, Switch & Loops** | ![](https://img.shields.io/badge/Done-success?style=flat-square) | [![View Code](https://img.shields.io/badge/View_Code-0969DA?style=flat-square&logo=github)](https://github.com/EzhilsreeJ/UPS-Training/tree/main/Day-3) |
+
+</div>
