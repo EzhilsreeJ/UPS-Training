@@ -1,4 +1,4 @@
-import java.Util.*;
+import java.util.*;
 public class ForLoop {
     public static void main(String[] args) {
         Scanner sc =new Scanner(System.in);
@@ -9,6 +9,7 @@ public class ForLoop {
             System.out.println(table+"*"+i+"="+table*i);
 
         }
+        sc.close();
     }
     
 }

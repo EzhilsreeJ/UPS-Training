@@ -1,4 +1,3 @@
-package Code;
 import java.util.*;
 class OddEven{
     public static void main(String[] args) {
@@ -14,5 +13,6 @@ class OddEven{
             start+=2;
         }
       }
+      sc.close();
     }
 }

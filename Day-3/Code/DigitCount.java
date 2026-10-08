@@ -11,5 +11,6 @@ public class DigitCount {
             count++;
         }
         System.out.println("Length of  "+original+" is "+count);
+        sc.close();
     }
 }

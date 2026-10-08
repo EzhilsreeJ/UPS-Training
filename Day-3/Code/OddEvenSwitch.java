@@ -1,4 +1,3 @@
-package Code;
 class OddEvenSwitch {
     public static void main(String[] args) {
         int num = 10;

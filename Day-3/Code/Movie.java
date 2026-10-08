@@ -1,4 +1,3 @@
-package Code;
 import java.util.*;
 
 class Movie {
@@ -68,7 +67,9 @@ class Movie {
         else {
             System.out.println("Invalid seat selection!");
         }
+        sc.close();
     }
+    
     
 }
 }

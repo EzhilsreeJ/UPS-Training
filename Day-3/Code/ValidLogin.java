@@ -1,4 +1,3 @@
-package Code;
 class ValidLogin{
     public static void main(String [] args){
         String username="Ezhil";

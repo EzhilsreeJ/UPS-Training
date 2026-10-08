@@ -10,6 +10,7 @@ public class SumOfNum {
             sum+=i;
         }
         System.out.println("Total sum is "+sum);
+        sc.close();
     }
     
 }

@@ -1,14 +1,12 @@
 <div align="center">
   <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=0,2,20&height=180&section=header&text=UPS%20Java%20Full%20Stack%20Training&fontSize=38&fontColor=ffffff&animation=fadeIn" width="100%"/>
   
-  <p style="font-family: 'Times New Roman', Times, serif; font-size: 16px;">
+  <p style="font-family: 'Times New Roman', Times, serif; font-size: 24px;">
     <b>Hey there! 👋 This repository is my personal daily log tracking hands-on exercises, concept notes, and practical projects throughout the UPS Java Full Stack training program.</b>
   </p>
   
   <br />
 
-  <span style="font-family: 'Times New Roman', Times, serif; font-weight: bold; font-size: 17px;">Curriculum Milestones</span><br />
-  <img src="https://geps.dev/progress/30?dangerColor=800000&warningColor=ff8000&successColor=00aa00" />
 </div>
 
 ---
