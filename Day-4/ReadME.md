@@ -71,7 +71,7 @@ class Calculator {
 ```
 **Output:**
 
-![alt text](image.png)
+![alt text](Output/image.png)
 
 ---
 
@@ -98,7 +98,7 @@ public static void main(String[] args) {
 ```
 **Output:**
 
-![![alt text](image-1.png)](image-1.png)
+![alt text](Output/image-1.png)
 
 ---
 ## Task-3
@@ -152,4 +152,4 @@ public class TwoDim {
 
 
 ```
-![alt text](image-2.png)
+![alt text](Output/image-2.png)
