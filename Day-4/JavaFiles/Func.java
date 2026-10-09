@@ -1,5 +1,5 @@
 import java.util.*;
-public class Func {
+public class Func{
 public static void main(String[] args) {
     Scanner sc= new Scanner(System.in);
     System.out.println("Please size of array:");

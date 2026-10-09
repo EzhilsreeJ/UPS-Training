@@ -9,6 +9,9 @@
   - Array declaration and initialization
   - Accessing array elements
   - Iterating through arrays
+- Type Casting in Java
+  - Implicit type casting (Widening)
+  - Explicit type casting (Narrowing)
 
 ## Task 1 – Calculator Using Methods and Looping
 
@@ -75,7 +78,7 @@ class Calculator {
 
 ---
 
-## Task 2
+## Task 2-Create, Store, and Display Array Elements Using Loops
 
 ```java
 import java.util.*;
@@ -101,7 +104,7 @@ public static void main(String[] args) {
 ![alt text](Output/image-1.png)
 
 ---
-## Task-3
+## Task 3-Addition of Two Matrices Using Methods and 2D Arrays
 ```java
 import java.util.*;
 public class TwoDim {
@@ -153,3 +156,145 @@ public class TwoDim {
 
 ```
 ![alt text](Output/image-2.png)
+
+## Task 3 – Reverse a String
+```java
+import java.util.*;
+
+public class ReverseString {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+
+        System.out.print("Enter a string: ");
+        String str = sc.nextLine();
+
+        String rev = "";
+
+        for (int i = str.length() - 1; i >= 0; i--) {
+            rev += str.charAt(i);
+        }
+
+        System.out.println("Reversed string: " + rev);
+    }
+}
+```
+**output:**
+
+![alt text](Output/image-3.png)
+---
+## Task 4-Count Vowels in a String
+
+```java
+import java.util.*;
+
+public class VowelCount {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+
+        System.out.print("Enter a string: ");
+        String str = sc.nextLine().toLowerCase();
+
+        int count = 0;
+
+        for (int i = 0; i < str.length(); i++) {
+            char ch = str.charAt(i);
+
+            if (ch == 'a' || ch == 'e' || ch == 'i' ||
+                ch == 'o' || ch == 'u') {
+                count++;
+            }
+        }
+
+        System.out.println("Number of vowels: " + count);
+    }
+}
+```
+**Output:**
+
+![alt text](Output/image-4.png)
+
+## Task 5-Student Information System Using Classes, Objects, and Methods
+```java
+import java.util.*;
+class Student {
+    Scanner sc= new Scanner(System.in);
+    String name;
+    int age;
+    Long mobile;
+
+    void createStudent(){
+        System.out.print("Enter name:");
+        name=sc.nextLine();
+        System.out.print("Enter age: ");
+        age = sc.nextInt();
+        System.out.print("Enter mobile: ");
+        mobile = sc.nextLong();
+    }
+    void display(){
+        System.out.println("Student name is "+name + ",age is " + age + " and mobile number is " + mobile);
+    }
+}
+
+public class StudentInfo{
+    public static void main(String[] args) {
+        Student s1 = new Student();
+        Student s2 = new Student();
+        Student s3 = new Student();
+
+        s1.createStudent();
+        s1.display();
+
+        s2.createStudent();
+        s2.display();
+
+        s3.createStudent();
+        s3.display();
+    }
+}
+```
+**Output:**
+
+![alt text](Output/image-5.png)
+
+## Task 6-Temperature Conversion (Celsius to Fahrenheit and Fahrenheit to Celsius)
+```java
+import java.util.*;
+
+public class Temperature {
+    static double celsiusToFahrenheit(double c) {
+        return (c * 9 / 5) + 32;
+    }
+
+    static double fahrenheitToCelsius(double f) {
+        return (f - 32) * 5 / 9;
+    }
+
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+
+        System.out.println("1. Celsius to Fahrenheit");
+        System.out.println("2. Fahrenheit to Celsius");
+        System.out.print("Enter your choice: ");
+        int choice = sc.nextInt();
+
+        System.out.print("Enter temperature: ");
+        double temp = sc.nextDouble();
+
+        switch (choice) {
+            case 1:
+                System.out.println("Fahrenheit: " + celsiusToFahrenheit(temp));
+                break;
+            case 2:
+                System.out.println("Celsius: " + fahrenheitToCelsius(temp));
+                break;
+            default:
+                System.out.println("Invalid choice");
+        }
+
+        sc.close();
+    }
+}
+```
+**Output:**
+
+![alt text](Output/image-6.png)

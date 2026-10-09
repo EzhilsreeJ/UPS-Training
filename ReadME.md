@@ -30,6 +30,6 @@
 | **Day 01** | **Introduction and Self Intro** | ![](https://img.shields.io/badge/Done-success?style=flat-square) | ![](https://img.shields.io/badge/N%2FA-lightgrey?style=flat-square) |
 | **Day 02** | **JVM Architecture, Primitive Types, and Operators** | ![](https://img.shields.io/badge/Done-success?style=flat-square) | [![View Code](https://img.shields.io/badge/View_Code-0969DA?style=flat-square&logo=github)](https://github.com/EzhilsreeJ/UPS-Training/tree/main/Day-2) |
 | **Day 03** | **Conditional Statements, Switch & Loops** | ![](https://img.shields.io/badge/Done-success?style=flat-square) | [![View Code](https://img.shields.io/badge/View_Code-0969DA?style=flat-square&logo=github)](https://github.com/EzhilsreeJ/UPS-Training/tree/main/Day-3) |
-| **Day 04** | **Methods, Arrays, and 2D Matrix Operations** | ![](https://img.shields.io/badge/Done-success?style=flat-square) | [![View Code](https://img.shields.io/badge/View_Code-0969DA?style=flat-square&logo=github)](https://github.com/EzhilsreeJ/UPS-Training/tree/main/Day-4) |
+| **Day 04** | **Methods, Arrays, and Type Casting** | ![](https://img.shields.io/badge/Done-success?style=flat-square) | [![View Code](https://img.shields.io/badge/View_Code-0969DA?style=flat-square&logo=github)](https://github.com/EzhilsreeJ/UPS-Training/tree/main/Day-4) |
 
 </div>
