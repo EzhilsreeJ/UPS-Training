@@ -327,6 +327,77 @@ Therefore, a married person is definitely looking at an unmarried person.
 
 The king cannot punish him without contradicting his own rule, so he must release the man.
 
+
+# Java Homework – Interface and Memory Management
+
+## HW 1 – Memory Storage of Primitive and Non-Primitive Variables
+
+**Question:** If a class contains primitive and non-primitive variables, where are the variables stored after creating an object?
+
+**Answer:**
+
+When an object is created using the `new` keyword, its instance variables are stored as part of the object in **heap memory**, regardless of whether they are primitive or non-primitive.
+
+- **Primitive variables:** Store actual values inside the object in heap memory.
+- **Non-primitive variables:** Store references inside the object in heap memory. The referenced objects are generally stored separately in heap memory.
+- **Local variables:** Local primitive variables and object references are conceptually stored in the stack frame.
+
+**Example:**
+
+```java
+class Student {
+    int age = 20;
+    String name = "Ezhil";
+}
+
+public class Main {
+    public static void main(String[] args) {
+        Student s = new Student();
+    }
+}
+```
+
+**Memory storage:**
+- `age` → Heap memory (inside the `Student` object).
+- `name` → Heap memory (the reference inside the `Student` object).
+- `"Ezhil"` → String pool.
+- `s` → Local reference in the `main()` stack frame.
+
+---
+
+## HW 2 – Variables in an Interface
+
+**Question:** Can we declare a variable in a Java interface without initializing it? If yes, provide sample code.
+
+**Answer:**
+
+No, we cannot declare a variable in a Java interface without initializing it. All interface variables are implicitly `public`, `static`, and `final`. Therefore, they must be initialized at the time of declaration.
+
+**Example:**
+
+```java
+interface Student {
+    int age = 20; // Valid
+
+    // int marks; // Invalid: variable not initialized
+}
+
+public class Main {
+    public static void main(String[] args) {
+        System.out.println(Student.age);
+    }
+}
+```
+
+**Output:**
+
+```text
+20
+```
+
+**Conclusion:** Interface variables are constants, so they must be initialized when declared.
+
+
 ## Learning Outcomes
 
 - Understood compile-time and runtime polymorphism.
