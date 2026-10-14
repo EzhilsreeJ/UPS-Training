@@ -1,3 +1,4 @@
+
 # UPS Java Full Stack Training
 
 <div align="center">
@@ -34,6 +35,7 @@
 | **Day 04** | **Methods, Arrays, and Type Casting** | ![Done](https://img.shields.io/badge/Done-success?style=flat-square) | [![View Code](https://img.shields.io/badge/View_Code-0969DA?style=flat-square&logo=github)](https://github.com/EzhilsreeJ/UPS-Training/tree/main/Day-4) |
 | **Day 05** | **Constructors, Encapsulation, Access Modifiers, POJO, Static vs Final, Inheritance, and BSM** | ![Done](https://img.shields.io/badge/Done-success?style=flat-square) | [![View Code](https://img.shields.io/badge/View_Code-0969DA?style=flat-square&logo=github)](https://github.com/EzhilsreeJ/UPS-Training/tree/main/Day-5) |
 | **Day 06** | **Polymorphism, Constructor Overloading, String Manipulation, Anagrams, and Logical Reasoning** | ![Done](https://img.shields.io/badge/Done-success?style=flat-square) | [![View Code](https://img.shields.io/badge/View_Code-0969DA?style=flat-square&logo=github)](https://github.com/EzhilsreeJ/UPS-Training/tree/main/Day-6) |
+| **Day 07** | **Interfaces, Arrays and String Methods, StringBuffer, Jagged Arrays, and Exception Handling** | ![Done](https://img.shields.io/badge/Done-success?style=flat-square) | [![View Code](https://img.shields.io/badge/View_Code-0969DA?style=flat-square&logo=github)](https://github.com/EzhilsreeJ/UPS-Training/tree/main/Day-7) |
 
 </div>
 
@@ -45,6 +47,7 @@
 - Practice object-oriented programming concepts.
 - Improve logical reasoning and problem-solving skills.
 - Build practical coding experience through daily exercises.
+- Learn exception handling and work with arrays and strings.
 - Maintain consistent progress throughout the training program.
 
 ---
