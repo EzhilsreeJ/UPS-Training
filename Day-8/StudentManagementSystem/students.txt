@@ -1,0 +1,7 @@
+1,ezhil,AIDS,4
+2,ezhil,CSE,4
+3,Meenu,AIDS,4
+1,Ezhil,AIDS,4
+2,NAME,AIDS,4
+1,ezhil,aids,4
+2,sree,aids,4
