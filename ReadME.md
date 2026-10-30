@@ -48,6 +48,12 @@
 
 ---
 
+## 📝 Practical Assessments
+
+| Assessment | Description | Resource |
+|---|---|---|
+| **Assessment 1** | Java practical assessment and programming exercises | [![Assessment 1](https://img.shields.io/badge/Assessment_1-0969DA?style=flat-square&logo=github)](Day-9/Assessment1.md) |
+| **Assessment 2** | Java practical test with beginner-friendly solutions | [![Assessment 2](https://img.shields.io/badge/Assessment_2-0969DA?style=flat-square&logo=github)](Day-12/Assessment2.md) |
 
 ---
 
