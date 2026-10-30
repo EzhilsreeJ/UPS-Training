@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register - CookBook</title>
+
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background: #fffaf2;
+        }
+
+        header, footer {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            flex-wrap: wrap;
+            gap: 15px;
+            padding: 18px 30px;
+            background: #ffcc80;
+        }
+
+        header h1 {
+            color: #8b2500;
+            margin: 0;
+        }
+
+        nav {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+        }
+
+        nav a {
+            text-decoration: none;
+            color: #542800;
+            font-weight: bold;
+        }
+
+        nav a:hover {
+            color: #e65100;
+        }
+
+        .register-box {
+            width: 400px;
+            max-width: 90%;
+            margin: 40px auto;
+            padding: 30px;
+            background: white;
+            border-radius: 15px;
+            box-shadow: 0 3px 12px #ddd;
+        }
+
+        h2 {
+            text-align: center;
+            color: #a84300;
+        }
+
+        label {
+            font-weight: bold;
+        }
+
+        input, textarea {
+            width: 100%;
+            padding: 10px;
+            margin: 8px 0 15px;
+            border: 1px solid #ccc;
+            border-radius: 8px;
+        }
+
+        button {
+            width: 100%;
+            padding: 12px;
+            background: #e65c00;
+            color: white;
+            border: none;
+            border-radius: 8px;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background: #b84300;
+        }
+
+        .register-box p {
+            text-align: center;
+        }
+
+        footer {
+            color: #542800;
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <h1>CookBook</h1>
+
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="recipe.html">Recipes</a>
+            <a href="about.html">About</a>
+            <a href="contact.html">Contact</a>
+            <a href="login.html">Login</a>
+            <a href="register.html">Register</a>
+        </nav>
+    </header>
+
+    <div class="register-box">
+
+        <h2>Create Account</h2>
+
+        <form onsubmit="alert('Registration submitted!'); return false;">
+
+            <label for="name">Full Name:</label>
+            <input type="text" id="name" name="name"
+                   placeholder="Enter your name" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email"
+                   placeholder="Enter your email" required>
+
+            <label for="phone">Phone Number:</label>
+            <input type="tel" id="phone" name="phone"
+                   placeholder="Enter your phone number"
+                   pattern="[0-9]{10}" required>
+
+            <label for="password">Password:</label>
+            <input type="password" id="password" name="password"
+                   placeholder="Create password" required>
+
+            <label for="address">Address:</label>
+            <textarea id="address" name="address"
+                      rows="3" placeholder="Enter your address"
+                      required></textarea>
+
+            <button type="submit">Register</button>
+
+        </form>
+
+        <p>Already have an account?
+            <a href="login.html">Login here</a>
+        </p>
+
+    </div>
+
+    <footer>
+        <h3>Happy Cooking!</h3>
+        <p>www.cookbook.com &copy; 2026</p>
+    </footer>
+
+</body>
+</html>

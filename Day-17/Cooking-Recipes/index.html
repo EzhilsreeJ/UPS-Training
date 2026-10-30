@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CookBook - Home</title>
+
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background: #fffaf2;
+        }
+
+        header, footer {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            flex-wrap: wrap;
+            gap: 15px;
+            padding: 18px 30px;
+            background: #ffcc80;
+        }
+
+        header h1 {
+            color: #8b2500;
+            margin: 0;
+        }
+
+        nav {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+        }
+
+        nav a {
+            text-decoration: none;
+            color: #542800;
+            font-weight: bold;
+        }
+
+        nav a:hover {
+            color: #e65100;
+        }
+
+        .intro {
+            text-align: center;
+            padding: 25px;
+        }
+
+        .intro h2 {
+            color: #a84300;
+        }
+
+        #container {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(max(230px, 22%), 1fr));
+            gap: 25px;
+            padding: 20px;
+        }
+
+        .card {
+            padding: 20px 10px;
+            text-align: center;
+            border: 2px solid #f0b36d;
+            border-radius: 20px;
+            background: white;
+            transition: transform 0.3s ease-in-out;
+        }
+
+        .card:hover {
+            transform: scale(1.03);
+            box-shadow: 0 5px 15px #d9b38c;
+        }
+
+        .card img {
+            width: 100%;
+            max-width: 180px;
+            height: 130px;
+            object-fit: cover;
+            border-radius: 15px;
+        }
+
+        .card h3 {
+            color: #873c13;
+        }
+
+        button {
+            background: #e65c00;
+            color: white;
+            padding: 10px 18px;
+            border: none;
+            border-radius: 10px;
+            cursor: pointer;
+            transition: transform 0.2s ease-in;
+        }
+
+        button:hover {
+            transform: scale(1.05);
+            background: #b84300;
+        }
+
+        footer {
+            color: #542800;
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <h1>CookBook</h1>
+
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="recipe.html">Recipes</a>
+            <a href="about.html">About</a>
+            <a href="contact.html">Contact</a>
+            <a href="login.html">Login</a>
+            <a href="register.html">Register</a>
+        </nav>
+    </header>
+
+    <section class="intro">
+        <h2>Discover Delicious Recipes!</h2>
+        <p>Explore easy and tasty recipes for every food lover.</p>
+    </section>
+
+    <main>
+        <div id="container">
+
+            <div class="card">
+                <img src="https://images.unsplash.com/photo-1546069901-ba9599a7e63c?w=400" alt="Vegetable Salad">
+                <h3>Vegetable Salad</h3>
+                <p>Fresh and healthy vegetable salad.</p>
+                <p><b>Price: ₹120</b></p>
+                <button onclick="showRecipe('Vegetable Salad')">View Recipe</button>
+            </div>
+
+            <div class="card">
+                <img src="https://images.unsplash.com/photo-1565299624946-b28f40a0ae38?w=400" alt="Pizza">
+                <h3>Homemade Pizza</h3>
+                <p>Delicious cheese and vegetable pizza.</p>
+                <p><b>Price: ₹250</b></p>
+                <button onclick="showRecipe('Homemade Pizza')">View Recipe</button>
+            </div>
+
+            <div class="card">
+                <img src="https://images.unsplash.com/photo-1555126634-323283e090fa?w=400" alt="Noodles">
+                <h3>Veg Noodles</h3>
+                <p>Spicy noodles with fresh vegetables.</p>
+                <p><b>Price: ₹150</b></p>
+                <button onclick="showRecipe('Veg Noodles')">View Recipe</button>
+            </div>
+
+            <div class="card">
+                <img src="https://images.unsplash.com/photo-1567188040759-fb8a883dc6d8?w=400" alt="Dosa">
+                <h3>Masala Dosa</h3>
+                <p>Crispy dosa with potato masala.</p>
+                <p><b>Price: ₹80</b></p>
+                <button onclick="showRecipe('Masala Dosa')">View Recipe</button>
+            </div>
+
+            <div class="card">
+                <img src="https://images.unsplash.com/photo-1569718212165-3a8278d5f624?w=400" alt="Pasta">
+                <h3>White Sauce Pasta</h3>
+                <p>Creamy pasta with delicious sauce.</p>
+                <p><b>Price: ₹180</b></p>
+                <button onclick="showRecipe('White Sauce Pasta')">View Recipe</button>
+            </div>
+
+            <div class="card">
+                <img src="https://images.unsplash.com/photo-1603133872878-684f208fb84b?w=400" alt="Fried Rice">
+                <h3>Veg Fried Rice</h3>
+                <p>Flavorful rice with mixed vegetables.</p>
+                <p><b>Price: ₹160</b></p>
+                <button onclick="showRecipe('Veg Fried Rice')">View Recipe</button>
+            </div>
+
+            <div class="card">
+                <img src="https://images.unsplash.com/photo-1578985545062-69928b1d9587?w=400" alt="Chocolate Cake">
+                <h3>Chocolate Cake</h3>
+                <p>Soft and delicious chocolate cake.</p>
+                <p><b>Price: ₹200</b></p>
+                <button onclick="showRecipe('Chocolate Cake')">View Recipe</button>
+            </div>
+
+            <div class="card">
+                <img src="https://images.unsplash.com/photo-1490645935967-10de6ba17061?w=400" alt="Healthy Breakfast">
+                <h3>Healthy Breakfast</h3>
+                <p>Nutritious breakfast for a healthy day.</p>
+                <p><b>Price: ₹100</b></p>
+                <button onclick="showRecipe('Healthy Breakfast')">View Recipe</button>
+            </div>
+
+        </div>
+    </main>
+
+    <footer>
+        <h3>Happy Cooking!</h3>
+        <p>www.cookbook.com &copy; 2026</p>
+    </footer>
+
+    <script>
+        function showRecipe(name) {
+            alert("You selected: " + name);
+        }
+    </script>
+
+</body>
+</html>
