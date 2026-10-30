@@ -31,10 +31,10 @@ jobs:
           mkdir -p _site/Day-14
           cp -R Day-14/Dinosaur-Website/. _site/Day-14/
 
-      - name: Upload Website
+      - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
-          path: _site
+          path: './Day-14/Dinosaur-Website'
 
       - name: Deploy Website
         uses: actions/deploy-pages@v4
