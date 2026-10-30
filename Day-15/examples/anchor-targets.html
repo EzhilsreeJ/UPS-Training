@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Anchor Targets and Iframes</title>
+</head>
+<body>
+
+    <h1>Anchor Target Examples</h1>
+
+    <p><a href="https://www.google.com" target="_blank">Open Google in New Tab (_blank)</a></p>
+
+    <p><a href="https://www.wikipedia.org" target="_self">Open Wikipedia in Same Tab (_self)</a></p>
+
+    <p><a href="https://www.example.com" target="_parent">Open Example in Parent Frame (_parent)</a></p>
+
+    <p><a href="https://www.example.com" target="_top">Open Example in Full Window (_top)</a></p>
+
+    <h2>Named Iframe Example</h2>
+
+    <p>Click the link to load a webpage inside the iframe.</p>
+
+    <a href="https://www.wikipedia.org"
+       target="myframe">Open Wikipedia in Iframe</a>
+
+    <br><br>
+
+    <iframe
+        src="https://example.com"
+        name="myframe"
+        width="600"
+        height="300"
+        frameborder="1"
+        title="Example iframe">
+    </iframe>
+
+    <br><br>
+    <a href="../home.html">Back to Home</a>
+
+</body>
+</html>
