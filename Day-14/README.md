@@ -276,7 +276,7 @@ The webpage was developed and executed successfully using Visual Studio Code and
 
 The Dinosaur Information Website is deployed using GitHub Pages and can be accessed online.
 
-**Deployed Website:** [Click Here to View the Dinosaur Website](PASTE_YOUR_GITHUB_PAGES_URL_HERE)
+**Deployed Website:** [Click Here to View the Dinosaur Website](https://ezhilsreej.github.io/UPS-Training/Day-14/)
 
 ### Live Website Preview
 
