@@ -56,7 +56,9 @@
 | **Day 22** | Spring Boot Project Setup, REST API Development, Entity, Repository, Service and Controller Layers, MySQL Connectivity, Student Management CRUD Operations, and REST API Testing using Postman | ![Done](https://img.shields.io/badge/Done-success?style=flat-square) | [![View Code](https://img.shields.io/badge/View_Code-0969DA?style=flat-square&logo=github)](Day-22/StudentMangement/) |
 | **Day 23** | Spring Boot Teacher Management API, Layered Architecture, Entity, Repository, Service and Controller Layers, MySQL Connectivity, CRUD Operations, PUT, and REST API Testing | ![Done](https://img.shields.io/badge/Done-success?style=flat-square) | [![View Code](https://img.shields.io/badge/View_Code-0969DA?style=flat-square&logo=github)](Day-23/TeacherManagement/) |
 | **Day 24** | Spring Boot User Registration and Login API, Layered Architecture, Entity, DTO, Repository, Service and Controller Layers, MySQL Connectivity, Email Validation, Authentication, and Error Handling | ![Done](https://img.shields.io/badge/Done-success?style=flat-square) | [![View Code](https://img.shields.io/badge/View_Code-0969DA?style=flat-square&logo=github)](Day-24/) |
-| **Day 25** | Spring Boot DTO Mapping using MapStruct, Entity-DTO Conversion, Mapper Interface, Repository, Service and Controller Layers, JPA, and MySQL Integration | ![Done](https://img.shields.io/badge/Done-success?style=flat-square) | [![View Code](https://img.shields.io/badge/View_Code-0969DA?style=flat-square&logo=github)](Day-25/)
+| **Day 25** | Spring Boot DTO Mapping using MapStruct, Entity-DTO Conversion, Mapper Interface, Repository, Service and Controller Layers, JPA, and MySQL Integration | ![Done](https://img.shields.io/badge/Done-success?style=flat-square) | [![View Code](https://img.shields.io/badge/View_Code-0969DA?style=flat-square&logo=github)](Day-25/) |
+| **Day 26** | Spring Boot User Registration API, Layered Architecture, Entity, DTO, Repository, Service and Controller Layers, MySQL Integration, and Registration API Testing | ![Done](https://img.shields.io/badge/Done-success?style=flat-square) | [![View Code](https://img.shields.io/badge/View_Code-0969DA?style=flat-square&logo=github)](Day-26/) |
+| **Day 27** | Student and Teacher Login, HTTP Session Management, Role-Based Access Control, Profile Access, Logout, and Teacher Student-Management Task | ![Done](https://img.shields.io/badge/Done-success?style=flat-square) | [![View Code](https://img.shields.io/badge/View_Code-0969DA?style=flat-square&logo=github)](Day-27/) |
 
 ---
 
@@ -99,7 +101,11 @@
 - Test and validate REST APIs using Postman.
 - Understand DTO and Entity separation in Spring Boot applications.
 - Practise automated object mapping using MapStruct.
-- Integrate MapStruct with Spring Boot and JPA.
+- Implement user registration and login APIs.
+- Understand HTTP sessions and session-based authentication.
+- Implement role-based access for students and teachers.
+- Practise profile access, logout, and protected API operations.
+- Develop teacher-side student management functionality.
 
 ---
 
