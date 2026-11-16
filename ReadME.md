@@ -2,9 +2,7 @@
 
 <div align="center">
   <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=0,2,20&height=180&section=header&text=UPS%20Java%20Full%20Stack%20Training&fontSize=38&fontColor=ffffff&animation=fadeIn" width="100%" alt="UPS Java Full Stack Training Header"/>
-  <p>
-    <b>Hey there! This repository is my personal daily log tracking hands-on exercises, concept notes, and practical projects throughout the UPS Java Full Stack Training program.</b>
-  </p>
+  <p><b>Hey there! This repository is my personal daily log tracking hands-on exercises, concept notes, and practical projects throughout the UPS Java Full Stack Training program.</b></p>
 </div>
 
 ---
@@ -46,6 +44,7 @@
 | **Day 16** | Self Revision – Review of Previously Covered Concepts and Practical Exercises | ![Done](https://img.shields.io/badge/Done-success?style=flat-square) | N/A |
 | **Day 17** | CSS Selectors, Flexbox, Flex Wrap, Hover Effects, Grid Layout, Transitions, and Cooking Recipe Website | ![Done](https://img.shields.io/badge/Done-success?style=flat-square) | [![View Code](https://img.shields.io/badge/View_Code-0969DA?style=flat-square&logo=github)](Day-17/) |
 | **Day 18** | CSS Media Queries, Responsive Design, CSS Filters, Keyframe Animations, CSS Positioning, and Personal Portfolio using HTML, CSS, and JavaScript | ![Done](https://img.shields.io/badge/Done-success?style=flat-square) | [![View Code](https://img.shields.io/badge/View_Code-0969DA?style=flat-square&logo=github)](Day-18/) |
+| **Day 19** | JavaScript Basics, Variables, Data Types, Operators, and Basic Programs | ![Done](https://img.shields.io/badge/Done-success?style=flat-square) | [![View Code](https://img.shields.io/badge/View_Code-0969DA?style=flat-square&logo=github)](Day-19/) |
 
 ---
 
@@ -75,7 +74,8 @@
 - Understand CSS selectors, Flexbox, Grid, hover effects, and transitions.
 - Apply media queries to create responsive web pages.
 - Practise CSS filters, animations, keyframes, and positioning.
-- Develop interactive and responsive multi-page websites.
+- Learn JavaScript fundamentals, variables, data types, and operators.
+- Develop basic programs using JavaScript.
 - Develop and improve practical applications.
 - Maintain consistent progress throughout the training program.
 
