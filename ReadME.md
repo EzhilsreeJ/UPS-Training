@@ -2,6 +2,7 @@
 
 <div align="center">
   <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=0,2,20&height=180&section=header&text=UPS%20Java%20Full%20Stack%20Training&fontSize=38&fontColor=ffffff&animation=fadeIn" width="100%" alt="UPS Java Full Stack Training Header"/>
+
   <p><b>Hey there! This repository is my personal daily log tracking hands-on exercises, concept notes, and practical projects throughout the UPS Java Full Stack Training program.</b></p>
 </div>
 
@@ -21,6 +22,8 @@
   <img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white" alt="Git"/>
   <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub"/>
   <img src="https://img.shields.io/badge/VS_Code-007ACC?style=for-the-badge&logo=visual-studio-code&logoColor=white" alt="VS Code"/>
+  <img src="https://img.shields.io/badge/REST_API-02569B?style=for-the-badge&logo=fastapi&logoColor=white" alt="REST API"/>
+  <img src="https://img.shields.io/badge/Postman-FF6C37?style=for-the-badge&logo=postman&logoColor=white" alt="Postman"/>
 </p>
 
 ---
@@ -50,7 +53,9 @@
 | **Day 19** | JavaScript Basics, Variables, Data Types, Operators, and Basic Programs | ![Done](https://img.shields.io/badge/Done-success?style=flat-square) | [![View Code](https://img.shields.io/badge/View_Code-0969DA?style=flat-square&logo=github)](Day-19/) |
 | **Day 20** | Code Architect – Project Documentation, Project Overview, Module Descriptions, User Workflow, GitHub Integration, and Vercel Deployment | ![Done](https://img.shields.io/badge/Done-success?style=flat-square) | [![View Project](https://img.shields.io/badge/View_Project-0969DA?style=flat-square&logo=github)](Day-20/) |
 | **Day 21** | Self Revision – Review of Previously Covered Concepts and Practical Exercises | ![Done](https://img.shields.io/badge/Done-success?style=flat-square) | N/A |
-| **Day 22** | React Application Setup, Components, React Router, useState Hook, Form Handling, Fetch API, REST API Integration, and Student Login & Registration | ![Done](https://img.shields.io/badge/Done-success?style=flat-square) | [![View Code](https://img.shields.io/badge/View_Code-0969DA?style=flat-square&logo=github)](Day-22/) |
+| **Day 22** | Spring Boot Project Setup, REST API Development, Entity, Repository, Service and Controller Layers, MySQL Connectivity, Student Management CRUD Operations, and REST API Testing using Postman | ![Done](https://img.shields.io/badge/Done-success?style=flat-square) | [![View Code](https://img.shields.io/badge/View_Code-0969DA?style=flat-square&logo=github)](Day-22/StudentMangement/) |
+| **Day 23** | Spring Boot Teacher Management API, Layered Architecture, Entity, Repository, Service and Controller Layers, MySQL Connectivity, CRUD Operations, PUT and REST API Testing | ![Done](https://img.shields.io/badge/Done-success?style=flat-square) | [![View Code](https://img.shields.io/badge/View_Code-0969DA?style=flat-square&logo=github)](Day-23/TeacherManagement/) |
+| **Day 24** | Spring Boot User Registration and Login API, Layered Architecture, Entity, DTO, Repository, Service and Controller Layers, MySQL Connectivity, Email Validation, Authentication, and Error Handling | ![Done](https://img.shields.io/badge/Done-success?style=flat-square) | [![View Code](https://img.shields.io/badge/View_Code-0969DA?style=flat-square&logo=github)](Day-24/) |
 
 ---
 
@@ -88,6 +93,17 @@
 - Practise controlled form inputs and form handling in React.
 - Integrate React applications with Spring Boot REST APIs.
 - Use Fetch API for frontend and backend communication.
+- Understand Spring Boot project structure and layered architecture.
+- Develop REST APIs using Spring Web.
+- Perform database operations using Spring Data JPA.
+- Integrate Spring Boot applications with MySQL.
+- Implement CRUD operations using HTTP methods.
+- Develop student and teacher management applications.
+- Understand DTOs and their role in transferring data.
+- Implement user registration and login functionality.
+- Practise email validation and authentication logic.
+- Handle API errors and responses.
+- Test and validate REST APIs using Postman.
 - Develop and improve practical applications.
 - Maintain consistent progress throughout the training program.
 
