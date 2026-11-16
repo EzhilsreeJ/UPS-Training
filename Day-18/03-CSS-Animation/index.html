@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Animation Demo</title>
+    <style>
+        .stage {
+            position: relative;
+            width: min(520px, 90%);
+            height: 280px;
+            margin: 30px auto;
+            border: 2px dashed #999;
+            border-radius: 12px;
+        }
+
+        .box {
+            position: absolute;
+            width: 65px;
+            height: 65px;
+            background: #7e57c2;
+            border-radius: 12px;
+            animation: travel 4s infinite;
+        }
+
+        @keyframes travel {
+            0% {
+                left: 0;
+                top: 0;
+                background: #7e57c2;
+                transform: rotate(0deg);
+            }
+            25% {
+                left: calc(100% - 65px);
+                top: 0;
+                background: #29b6f6;
+                transform: rotate(90deg);
+            }
+            50% {
+                left: calc(100% - 65px);
+                top: calc(100% - 65px);
+                background: #66bb6a;
+                transform: rotate(180deg);
+            }
+            75% {
+                left: 0;
+                top: calc(100% - 65px);
+                background: #ffa726;
+                transform: rotate(270deg);
+            }
+            100% {
+                left: 0;
+                top: 0;
+                background: #7e57c2;
+                transform: rotate(360deg);
+            }
+        }
+    </style>
+</head>
+<body>
+    <h1 style="text-align: center;">CSS Keyframe Animation</h1>
+    <p style="text-align: center;">The square moves around the animation stage and changes color.</p>
+    <div class="stage">
+        <div class="box"></div>
+    </div>
+</body>
+</html>

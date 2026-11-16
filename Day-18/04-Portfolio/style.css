@@ -1,0 +1,255 @@
+* {
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    color: #20243a;
+    background: #f7f8fc;
+    line-height: 1.6;
+}
+
+header {
+    position: sticky;
+    top: 0;
+    z-index: 10;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 16px 7%;
+    background: #171b34;
+    color: white;
+}
+
+.brand {
+    color: white;
+    text-decoration: none;
+    font-size: 22px;
+    font-weight: bold;
+}
+
+nav {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 18px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+nav a:hover {
+    color: #8de0d2;
+}
+
+section {
+    padding: 65px 9%;
+    text-align: center;
+}
+
+.hero {
+    min-height: 430px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 35px;
+    text-align: left;
+    background: #e8edff;
+}
+
+.hero-content {
+    max-width: 650px;
+    animation: appear 1.2s ease;
+}
+
+.eyebrow {
+    color: #5264bd;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+
+.hero h1 {
+    font-size: clamp(32px, 5vw, 52px);
+    margin: 8px 0;
+}
+
+.hero h1 span {
+    color: #5264bd;
+}
+
+.hero h2 {
+    font-size: 23px;
+    font-weight: normal;
+}
+
+.hero-shape {
+    position: relative;
+    width: 190px;
+    height: 190px;
+    flex-shrink: 0;
+    display: grid;
+    place-items: center;
+    border-radius: 35% 65% 60% 40%;
+    background: #5264bd;
+    color: white;
+    font-size: 48px;
+    font-weight: bold;
+    animation: float 3s ease-in-out infinite;
+}
+
+.link-button {
+    display: inline-block;
+    margin-top: 15px;
+    padding: 11px 20px;
+    border-radius: 6px;
+    background: #5264bd;
+    color: white;
+    text-decoration: none;
+    transition: background 0.3s, transform 0.3s;
+}
+
+.link-button:hover {
+    background: #35469a;
+    transform: translateY(-3px);
+}
+
+section h2 {
+    color: #35469a;
+    margin-top: 0;
+}
+
+#about p {
+    max-width: 750px;
+    margin: auto;
+}
+
+.skills-grid {
+    max-width: 800px;
+    margin: 25px auto 0;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 15px;
+}
+
+.skills-grid div,
+.interest-list article {
+    padding: 20px;
+    border-radius: 10px;
+    background: white;
+    box-shadow: 0 3px 12px #20243a12;
+    transition: transform 0.3s;
+}
+
+.skills-grid div:hover,
+.interest-list article:hover {
+    transform: translateY(-5px);
+}
+
+.interest-list {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 18px;
+    text-align: left;
+}
+
+.interest-list h3 {
+    color: #5264bd;
+}
+
+form {
+    max-width: 480px;
+    margin: 20px auto;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+input,
+textarea,
+button {
+    width: 100%;
+    padding: 13px;
+    font: inherit;
+    border: 1px solid #ccd0df;
+    border-radius: 6px;
+}
+
+textarea {
+    min-height: 120px;
+    resize: vertical;
+}
+
+button {
+    border: none;
+    background: #5264bd;
+    color: white;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+button:hover {
+    background: #35469a;
+}
+
+footer {
+    padding: 15px;
+    text-align: center;
+    background: #171b34;
+    color: white;
+}
+
+@keyframes appear {
+    from { opacity: 0; transform: translateY(25px); }
+    to { opacity: 1; transform: translateY(0); }
+}
+
+@keyframes float {
+    0%, 100% { transform: translateY(0); }
+    50% { transform: translateY(-14px); }
+}
+
+@media (max-width: 700px) {
+    header {
+        flex-direction: column;
+        gap: 12px;
+    }
+
+    nav {
+        justify-content: center;
+        gap: 12px;
+    }
+
+    .hero {
+        flex-direction: column-reverse;
+        text-align: center;
+        padding-top: 45px;
+    }
+
+    .hero-shape {
+        width: 135px;
+        height: 135px;
+        font-size: 35px;
+    }
+
+    .skills-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .interest-list {
+        grid-template-columns: 1fr;
+    }
+}
+
+@media (max-width: 380px) {
+    .skills-grid {
+        grid-template-columns: 1fr;
+    }
+
+    nav a {
+        font-size: 14px;
+    }
+}

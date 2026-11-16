@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Layout</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 40px 20px;
+            font-family: Arial, sans-serif;
+            text-align: center;
+            background: #e8eaf6;
+            color: #263238;
+        }
+
+        .content {
+            max-width: 700px;
+            margin: auto;
+            padding: 30px;
+            border-radius: 12px;
+            background: white;
+        }
+
+        h1 { color: #3949ab; }
+
+        @media screen and (max-width: 600px) {
+            body {
+                padding: 15px;
+                background: #d1f2eb;
+            }
+
+            .content { padding: 20px 12px; }
+            h1 { color: #00796b; font-size: 25px; }
+        }
+
+        @media screen and (min-width: 601px) and (max-width: 992px) {
+            body { background: #fff3cd; }
+            h1 { color: #ad6800; }
+        }
+    </style>
+</head>
+<body>
+    <div class="content">
+        <h1>Responsive Web Design</h1>
+        <p>Resize the browser window to view the media query changes.</p>
+        <p>This page uses different styles for mobile, tablet and desktop screens.</p>
+    </div>
+</body>
+</html>

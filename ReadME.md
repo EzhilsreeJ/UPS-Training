@@ -45,6 +45,7 @@
 | **Day 15** | HTML Forms, Navigation, Anchor Targets, Iframes, HTML Entities, Marquee, and Multimedia | ![Done](https://img.shields.io/badge/Done-success?style=flat-square) | [![View Code](https://img.shields.io/badge/View_Code-0969DA?style=flat-square&logo=github)](Day-15/) |
 | **Day 16** | Self Revision – Review of Previously Covered Concepts and Practical Exercises | ![Done](https://img.shields.io/badge/Done-success?style=flat-square) | N/A |
 | **Day 17** | CSS Selectors, Flexbox, Flex Wrap, Hover Effects, Grid Layout, Transitions, and Cooking Recipe Website | ![Done](https://img.shields.io/badge/Done-success?style=flat-square) | [![View Code](https://img.shields.io/badge/View_Code-0969DA?style=flat-square&logo=github)](Day-17/) |
+| **Day 18** | CSS Media Queries, Responsive Design, CSS Filters, Keyframe Animations, CSS Positioning, and Personal Portfolio using HTML, CSS, and JavaScript | ![Done](https://img.shields.io/badge/Done-success?style=flat-square) | [![View Code](https://img.shields.io/badge/View_Code-0969DA?style=flat-square&logo=github)](Day-18/) |
 
 ---
 
@@ -72,6 +73,8 @@
 - Gain practical experience with JDBC and database connectivity.
 - Learn HTML elements, forms, tables, and multimedia.
 - Understand CSS selectors, Flexbox, Grid, hover effects, and transitions.
+- Apply media queries to create responsive web pages.
+- Practise CSS filters, animations, keyframes, and positioning.
 - Develop interactive and responsive multi-page websites.
 - Develop and improve practical applications.
 - Maintain consistent progress throughout the training program.
