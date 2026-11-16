@@ -1,0 +1,114 @@
+
+.portal {
+    width: 90%;
+    max-width: 1100px;
+    margin: 40px auto;
+}
+
+.portal h1 {
+    text-align: center;
+    color: #1e3a8a;
+    margin-bottom: 30px;
+    font-size: 30px;
+}
+
+.form-section,
+.table-section {
+    background: white;
+    padding: 25px;
+    margin-bottom: 25px;
+    border-radius: 10px;
+    box-shadow: 0 2px 12px rgba(0, 0, 0, 0.08);
+}
+
+.form-section h2,
+.table-section h2 {
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.form-section form {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 15px;
+}
+
+.form-section input {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 14px;
+}
+
+.form-section button {
+    padding: 12px;
+    background: #2563eb;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 15px;
+}
+
+.form-section button:hover {
+    background: #1d4ed8;
+}
+
+.message {
+    margin-top: 15px;
+    color: #166534;
+    font-weight: 600;
+}
+
+.table-section {
+    overflow-x: auto;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th, td {
+    padding: 14px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+th {
+    background: #eff6ff;
+    color: #1e3a8a;
+}
+
+tr:hover {
+    background: #f8fafc;
+}
+
+@media (max-width: 650px) {
+    .portal {
+        width: 95%;
+    }
+
+    .form-section form {
+        grid-template-columns: 1fr;
+    }
+
+    .portal h1 {
+        font-size: 23px;
+    }
+}
+.login-link {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.login-link a {
+    color: #2563eb;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.login-link a:hover {
+    text-decoration: underline;
+}

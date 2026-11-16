@@ -15,6 +15,9 @@
   <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white" alt="HTML5"/>
   <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white" alt="CSS3"/>
   <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" alt="JavaScript"/>
+  <img src="https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=react&logoColor=black" alt="React"/>
+  <img src="https://img.shields.io/badge/Spring_Boot-6DB33F?style=for-the-badge&logo=springboot&logoColor=white" alt="Spring Boot"/>
+  <img src="https://img.shields.io/badge/Vite-646CFF?style=for-the-badge&logo=vite&logoColor=white" alt="Vite"/>
   <img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white" alt="Git"/>
   <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub"/>
   <img src="https://img.shields.io/badge/VS_Code-007ACC?style=for-the-badge&logo=visual-studio-code&logoColor=white" alt="VS Code"/>
@@ -46,6 +49,8 @@
 | **Day 18** | CSS Media Queries, Responsive Design, CSS Filters, Keyframe Animations, CSS Positioning, and Personal Portfolio using HTML, CSS, and JavaScript | ![Done](https://img.shields.io/badge/Done-success?style=flat-square) | [![View Code](https://img.shields.io/badge/View_Code-0969DA?style=flat-square&logo=github)](Day-18/) |
 | **Day 19** | JavaScript Basics, Variables, Data Types, Operators, and Basic Programs | ![Done](https://img.shields.io/badge/Done-success?style=flat-square) | [![View Code](https://img.shields.io/badge/View_Code-0969DA?style=flat-square&logo=github)](Day-19/) |
 | **Day 20** | Code Architect – Project Documentation, Project Overview, Module Descriptions, User Workflow, GitHub Integration, and Vercel Deployment | ![Done](https://img.shields.io/badge/Done-success?style=flat-square) | [![View Project](https://img.shields.io/badge/View_Project-0969DA?style=flat-square&logo=github)](Day-20/) |
+| **Day 21** | Self Revision – Review of Previously Covered Concepts and Practical Exercises | ![Done](https://img.shields.io/badge/Done-success?style=flat-square) | N/A |
+| **Day 22** | React Application Setup, Components, React Router, useState Hook, Form Handling, Fetch API, REST API Integration, and Student Login & Registration | ![Done](https://img.shields.io/badge/Done-success?style=flat-square) | [![View Code](https://img.shields.io/badge/View_Code-0969DA?style=flat-square&logo=github)](Day-22/) |
 
 ---
 
@@ -79,6 +84,10 @@
 - Develop basic programs using JavaScript.
 - Prepare project documentation and define application modules and workflows.
 - Understand GitHub repository integration and Vercel deployment planning.
+- Learn React components, routing, and state management.
+- Practise controlled form inputs and form handling in React.
+- Integrate React applications with Spring Boot REST APIs.
+- Use Fetch API for frontend and backend communication.
 - Develop and improve practical applications.
 - Maintain consistent progress throughout the training program.
 
